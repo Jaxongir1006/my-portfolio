@@ -1,8 +1,8 @@
 # Jahongir Qosimjonov Portfolio
 
-Personal developer portfolio for Jahongir Qosimjonov, built as a futuristic backend-focused landing page with an interactive 3D solar-system hero.
+Personal portfolio for Jahongir Qosimjonov, built as a futuristic system-design-focused backend engineering landing page with an interactive 3D solar-system hero.
 
-The site presents backend skills, project concepts, experience highlights, and contact information in a single-page React application.
+The site presents backend architecture skills, Go-focused service design, project concepts, experience highlights, and contact information in a single-page React application.
 
 ## Features
 
@@ -12,6 +12,7 @@ The site presents backend skills, project concepts, experience highlights, and c
 - Focus labels for selected celestial bodies
 - Texture preloading and loading overlay for a smoother first render
 - Responsive portfolio sections for about, skills, projects, timeline, and contact
+- Positioning around system design, Go, APIs, microservices, gRPC, GraphQL, WebSockets, and modular monoliths
 - Motion-enhanced interface using Framer Motion
 - Icon system powered by Lucide React
 - Tailwind CSS styling with glass, neon, and dark-space visual treatment
@@ -62,9 +63,9 @@ The site presents backend skills, project concepts, experience highlights, and c
 ## Main Sections
 
 - Hero: introduction, call-to-action buttons, portfolio stats, and interactive 3D scene
-- About: personal summary and developer positioning
-- Skills: categorized backend, database, DevOps, and tooling skills
-- Projects: production-focused backend project concepts
+- About: personal summary and backend architecture positioning
+- Skills: categorized system design, Go, API communication, database, DevOps, and tooling skills
+- Projects: production-focused backend and service architecture concepts
 - Timeline: experience and learning path
 - Contact: ways to reach out
 
@@ -167,4 +168,4 @@ That folder can be deployed to static hosting platforms such as Vercel, Netlify,
 ## Author
 
 Jahongir Qosimjonov  
-Python web developer focused on backend systems, APIs, deployment workflows, Telegram bots, and production-minded engineering.
+Backend engineer focused on system design, Go services, API architecture, microservices, modular monoliths, gRPC, GraphQL, WebSockets, deployment workflows, and production-minded engineering.

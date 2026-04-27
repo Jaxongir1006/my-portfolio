@@ -15,15 +15,15 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/25 bg-cyan-400/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-cyan-200 shadow-[0_0_24px_rgba(34,211,238,0.12)]">
             <Sparkles size={14} />
-            Futuristic backend portfolio
+            System design focused backend engineer
           </div>
 
           <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[0.95] text-white sm:text-6xl lg:text-7xl">
-            Building APIs, bots, and backend systems that feel <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-fuchsia-400 bg-clip-text text-transparent">sharp in production</span>.
+            Designing backend systems that stay <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-fuchsia-400 bg-clip-text text-transparent">clear under real load</span>.
           </h1>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-            I&apos;m Jahongir Qosimjonov, a Python web developer with 2 years of experience shipping backend products, deployment flows, Telegram bots, and scalable service foundations with a fullstack mindset.
+            I&apos;m Jahongir Qosimjonov, a backend engineer focused on system design, Go services, API architecture, microservices, modular monoliths, gRPC, GraphQL, WebSockets, and production-minded service boundaries.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -39,9 +39,9 @@ export default function Hero() {
 
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[
-              ['2+', 'Years building backend systems'],
-              ['12+', 'Production-focused project concepts'],
-              ['24/7', 'Engineering mindset around reliability'],
+              ['2+', 'Years building backend foundations'],
+              ['Go', 'Current focus for systems programming'],
+              ['S2S', 'Microservices, gRPC, GraphQL, WebSockets'],
             ].map(([value, label]) => (
               <div key={label} className="glass-card rounded-3xl p-4">
                 <p className="font-display text-2xl text-white">{value}</p>

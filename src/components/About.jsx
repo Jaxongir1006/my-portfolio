@@ -3,18 +3,18 @@ import { Cpu, ShieldCheck, Terminal } from 'lucide-react'
 
 const highlights = [
   {
-    title: 'Backend-first mindset',
-    description: 'I focus on clean architecture, API correctness, authentication flows, and systems that stay maintainable as products grow.',
+    title: 'System design mindset',
+    description: 'I think in service boundaries, data flow, failure modes, API contracts, and systems that can evolve without turning into fragile code.',
     icon: Cpu,
   },
   {
-    title: 'Deployment-aware engineering',
-    description: 'From Docker and Gunicorn to Nginx, Linux, and SSL setup, I design software with production environments in mind from the start.',
+    title: 'Go and service architecture',
+    description: 'I am actively sharpening Go for backend systems where concurrency, explicit design, performance, and deeper programming discipline matter.',
     icon: ShieldCheck,
   },
   {
-    title: 'Automation and integrations',
-    description: 'I build Telegram bots, payment integrations, and service-to-service flows that remove friction and make products operationally stronger.',
+    title: 'Modern backend communication',
+    description: 'I work with REST, gRPC, GraphQL, WebSockets, microservices, modular monoliths, integrations, queues, and production delivery workflows.',
     icon: Terminal,
   },
 ]
@@ -31,12 +31,12 @@ export default function About() {
           className="glass-panel rounded-[2rem] p-8"
         >
           <p className="eyebrow">About</p>
-          <h2 className="section-title mt-4">Backend strength with fullstack awareness.</h2>
+          <h2 className="section-title mt-4">Backend engineering beyond CRUD.</h2>
           <p className="section-copy mt-6">
-            My core work is backend development: building APIs, handling data models, deployment flows, authentication systems, caching layers, and business logic that can scale. I work comfortably across Django, DRF, FastAPI, Aiogram, Go services, and containerized environments.
+            My focus is backend architecture and system design: choosing the right service boundaries, designing reliable APIs, modeling data correctly, and building systems that are understandable under real product pressure. I use Python where it is practical, but I am currently pushing deeper into Go because it demands stronger fundamentals around concurrency, memory, interfaces, and explicit engineering decisions.
           </p>
           <p className="section-copy mt-4">
-            I care about software that survives real use, not just demo conditions. That means clear interfaces, stable integrations, careful deployment, and enough frontend understanding to collaborate effectively on the complete product.
+            I care about backend work that goes beyond CRUD and demo-level systems: modular monoliths before premature distribution, microservices when boundaries justify them, gRPC for efficient service-to-service communication, GraphQL where clients need flexible querying, and WebSockets where realtime behavior matters.
           </p>
         </motion.div>
 

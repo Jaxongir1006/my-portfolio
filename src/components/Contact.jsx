@@ -40,14 +40,14 @@ export default function Contact() {
           className="glass-panel rounded-[2rem] p-8"
         >
           <p className="eyebrow">Contact</p>
-          <h2 className="section-title mt-4">Open for serious backend and fullstack-leaning work.</h2>
+          <h2 className="section-title mt-4">Open for serious backend systems work.</h2>
           <p className="section-copy mt-5">
-            If you need API development, backend architecture, service integrations, deployment support, or Telegram bot engineering, I&apos;m available for collaboration and client work.
+            If you need backend architecture, Go services, API design, microservice planning, modular monolith design, service integrations, realtime features, or deployment support, I&apos;m available for collaboration and client work.
           </p>
           <div className="mt-8 rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
             <p className="text-xs uppercase tracking-[0.35em] text-fuchsia-200">Primary strengths</p>
             <p className="mt-3 text-sm leading-7 text-slate-300">
-              Django, DRF, FastAPI, Go APIs, PostgreSQL, Dockerized deployment, authentication systems, payment integrations, and Telegram bots.
+              System design, Go, REST APIs, gRPC, GraphQL, WebSockets, microservices, modular monoliths, PostgreSQL, Redis, Dockerized deployment, and pragmatic Python backend work.
             </p>
           </div>
         </motion.div>

@@ -13,9 +13,9 @@ export default function Skills() {
           className="max-w-3xl"
         >
           <p className="eyebrow">Skills</p>
-          <h2 className="section-title mt-4">Specialized stacks for APIs, infra, and product delivery.</h2>
+          <h2 className="section-title mt-4">Architecture-level backend skills.</h2>
           <p className="section-copy mt-5">
-            The stack is centered on Python backend development, supported by Go services, practical deployment tools, and database experience across relational and document systems.
+            The stack is moving toward system design and Go-based backend engineering, supported by strong API design, service communication patterns, database modeling, deployment discipline, and Python experience where it fits the product.
           </p>
         </motion.div>
 

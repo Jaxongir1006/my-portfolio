@@ -4,22 +4,22 @@ const milestones = [
   {
     year: '2024',
     title: 'Backend foundations sharpened',
-    description: 'Built stronger confidence with Django, DRF, API architecture, authentication flows, and production-minded backend patterns.',
+    description: 'Built stronger confidence with API architecture, authentication flows, data modeling, deployment basics, and production-minded backend patterns.',
   },
   {
     year: '2025',
-    title: 'Deployment and systems thinking',
-    description: 'Expanded into Dockerized services, Nginx, Gunicorn, Linux-based deployment, Redis caching, and more disciplined delivery workflows.',
+    title: 'Systems thinking and deployment discipline',
+    description: 'Expanded into Dockerized services, reverse proxies, Linux-based deployment, Redis caching, modular service structure, and more disciplined delivery workflows.',
   },
   {
     year: '2026',
-    title: 'Broader service design',
-    description: 'Added more FastAPI, Aiogram, Go APIs, integrations, and internal tooling experience with a stronger fullstack-leaning delivery style.',
+    title: 'Go and service architecture focus',
+    description: 'Moving deeper into Go, system design, microservices, modular monoliths, gRPC, GraphQL, WebSockets, integrations, and stronger backend architecture decisions.',
   },
   {
     year: 'Academic',
     title: 'University track',
-    description: 'Studying C# and .NET at university as academic knowledge while keeping professional focus on Python, APIs, infrastructure, and product delivery.',
+    description: 'Studying C# and .NET at university as academic knowledge while keeping professional focus on backend systems, Go, APIs, infrastructure, and product delivery.',
   },
 ]
 
@@ -35,9 +35,9 @@ export default function Timeline() {
           className="max-w-3xl"
         >
           <p className="eyebrow">Experience</p>
-          <h2 className="section-title mt-4">Growth centered on backend execution and deployment readiness.</h2>
+          <h2 className="section-title mt-4">Growth centered on systems, services, and architecture.</h2>
           <p className="section-copy mt-5">
-            The trajectory is consistent: deeper API design, stronger operational thinking, more confidence across services and integrations, and broader technical range without diluting the backend core.
+            The trajectory is deliberate: stronger API design, deeper operational thinking, Go-focused backend growth, better service boundaries, and broader architecture range without diluting the backend core.
           </p>
         </motion.div>
 

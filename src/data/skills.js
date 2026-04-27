@@ -2,6 +2,7 @@ import {
   Bot,
   Box,
   Braces,
+  Cable,
   Database,
   GitBranch,
   Globe,
@@ -20,22 +21,43 @@ import {
 
 export const skillCategories = [
   {
-    title: 'Python',
-    description: 'Production-grade API work, bots, integrations, and backend architecture.',
+    title: 'System Design',
+    description: 'Architecture decisions for service boundaries, communication, scalability, and maintainability.',
+    skills: [
+      { name: 'Microservices', icon: Waypoints },
+      { name: 'Modular Monoliths', icon: Layers3 },
+      { name: 'Service Boundaries', icon: GitBranch },
+      { name: 'Scalable API Design', icon: Globe },
+    ],
+  },
+  {
+    title: 'Go',
+    description: 'Current focus for deeper backend programming, concurrency, and explicit service design.',
+    skills: [
+      { name: 'Go Services', icon: Rocket },
+      { name: 'Fiber', icon: Waypoints },
+      { name: 'Gin', icon: Globe },
+      { name: 'Frameworkless Services', icon: TerminalSquare },
+    ],
+  },
+  {
+    title: 'API Communication',
+    description: 'Transport and API patterns for internal services, client-facing APIs, and realtime products.',
+    skills: [
+      { name: 'REST APIs', icon: Globe },
+      { name: 'gRPC', icon: Cable },
+      { name: 'GraphQL', icon: Braces },
+      { name: 'WebSockets', icon: Waypoints },
+    ],
+  },
+  {
+    title: 'Python Backend',
+    description: 'Practical backend delivery with mature Python frameworks and automation tooling.',
     skills: [
       { name: 'Django', icon: Layers3 },
       { name: 'Django REST Framework', icon: Braces },
       { name: 'FastAPI', icon: Rocket },
       { name: 'Aiogram', icon: Bot },
-    ],
-  },
-  {
-    title: 'Go',
-    description: 'High-performance services with and without frameworks.',
-    skills: [
-      { name: 'Fiber', icon: Waypoints },
-      { name: 'Gin', icon: Globe },
-      { name: 'Frameworkless Services', icon: TerminalSquare },
     ],
   },
   {
@@ -62,22 +84,21 @@ export const skillCategories = [
   },
   {
     title: 'Tools',
-    description: 'Daily engineering tools for collaboration, delivery, and maintenance.',
+    description: 'Daily engineering tools for collaboration, delivery, caching, and reliable service operation.',
     skills: [
       { name: 'Git', icon: GitBranch },
       { name: 'Redis Caching', icon: Database },
       { name: 'Server Deployment', icon: Server },
-      { name: 'REST API Design', icon: Globe },
+      { name: 'RabbitMQ Basics', icon: Rabbit },
     ],
   },
   {
     title: 'Other',
-    description: 'Supporting strengths used in real product delivery and academic growth.',
+    description: 'Supporting strengths used in real backend products, integrations, and academic growth.',
     skills: [
       { name: 'Authentication Systems', icon: Lock },
       { name: 'Payment Integrations', icon: Wrench },
       { name: 'Telegram Bot Development', icon: Bot },
-      { name: 'RabbitMQ Basics', icon: Rabbit },
       { name: 'C# / .NET (Academic)', icon: Braces },
     ],
   },
