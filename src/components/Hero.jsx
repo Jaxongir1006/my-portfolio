@@ -52,13 +52,13 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.15 }}
           className="relative"
         >
           <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-cyan-400/15 via-blue-500/10 to-fuchsia-500/15 blur-2xl" />
-          <div className="glass-panel relative rounded-[2rem] p-3 md:p-5">
+          <div className="glass-panel relative h-[384px] rounded-[2rem] p-3 md:h-[560px] md:p-5">
             <Suspense
               fallback={
                 <div className="flex h-[360px] w-full items-center justify-center rounded-[1.5rem] border border-white/10 bg-slate-950/60 md:h-[520px]">
@@ -68,15 +68,6 @@ export default function Hero() {
             >
               <HeroScene />
             </Suspense>
-            <div className="absolute inset-x-5 bottom-5 rounded-3xl border border-white/10 bg-slate-950/60 p-4 backdrop-blur-xl">
-              <div className="flex items-center justify-between gap-4">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.3em] text-cyan-300">Current focus</p>
-                  <p className="mt-2 font-display text-xl text-white">API architecture + deployment discipline</p>
-                </div>
-                <div className="h-3 w-3 rounded-full bg-cyan-300 shadow-[0_0_18px_rgba(103,232,249,1)]" />
-              </div>
-            </div>
           </div>
         </motion.div>
       </div>

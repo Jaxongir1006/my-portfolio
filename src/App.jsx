@@ -1,5 +1,6 @@
 import About from './components/About'
 import Contact from './components/Contact'
+import DarkVeil from './components/DarkVeil'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -9,9 +10,19 @@ import Timeline from './components/Timeline'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#02030a] text-white">
+    <div className="relative min-h-screen overflow-x-hidden bg-[#02030a] text-white">
+      <div className="pointer-events-none fixed inset-0 z-0 opacity-35">
+        <DarkVeil
+          hueShift={0}
+          noiseIntensity={0}
+          scanlineIntensity={0}
+          speed={0.5}
+          scanlineFrequency={0}
+          warpAmount={0}
+        />
+      </div>
       <Navbar />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <About />
         <Skills />
@@ -19,7 +30,9 @@ export default function App() {
         <Timeline />
         <Contact />
       </main>
-      <Footer />
+      <div className="relative z-10">
+        <Footer />
+      </div>
     </div>
   )
 }
