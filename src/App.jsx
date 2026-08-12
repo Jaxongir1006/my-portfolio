@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import About from './components/About'
 import Contact from './components/Contact'
 import DarkVeil from './components/DarkVeil'
@@ -33,6 +34,7 @@ export default function App() {
       <div className="relative z-10">
         <Footer />
       </div>
+      <Analytics />
     </div>
   )
 }
